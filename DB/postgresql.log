@@ -1,0 +1,28 @@
+2023-06-24 10:53:55.090 BST [7832] LOG:  starting PostgreSQL 15.3 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-06-24 10:53:55.094 BST [7832] LOG:  listening on IPv6 address "::1", port 5100
+2023-06-24 10:53:55.094 BST [7832] LOG:  listening on IPv4 address "127.0.0.1", port 5100
+2023-06-24 10:53:55.095 BST [7832] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5100"
+2023-06-24 10:53:55.105 BST [7835] LOG:  database system was shut down at 2023-06-24 10:53:54 BST
+2023-06-24 10:53:55.115 BST [7832] LOG:  database system is ready to accept connections
+2023-06-24 10:56:04.889 BST [7859] ERROR:  syntax error at or near "db" at character 8
+2023-06-24 10:56:04.889 BST [7859] STATEMENT:  create db DB-study-group
+	createdb DB-study-group;
+2023-06-24 10:56:32.709 BST [7859] ERROR:  syntax error at or near "createdb" at character 1
+2023-06-24 10:56:32.709 BST [7859] STATEMENT:  createdb DB-study-group;
+2023-06-24 10:56:58.831 BST [7859] ERROR:  syntax error at or near "db" at character 8
+2023-06-24 10:56:58.831 BST [7859] STATEMENT:  create db DB-study-group;
+2023-06-24 10:57:18.588 BST [7859] ERROR:  syntax error at or near "createdb" at character 1
+2023-06-24 10:57:18.588 BST [7859] STATEMENT:  createdb DB-study-group;
+2023-06-24 10:58:55.098 BST [7833] LOG:  checkpoint starting: time
+2023-06-24 11:02:07.295 BST [7833] LOG:  checkpoint complete: wrote 1913 buffers (11.7%); 0 WAL file(s) added, 0 removed, 1 recycled; write=192.173 s, sync=0.022 s, total=192.198 s; sync files=511, longest=0.006 s, average=0.001 s; distance=8893 kB, estimate=8893 kB
+2023-06-24 19:35:33.859 BST [7859] ERROR:  relation "topics" already exists
+2023-06-24 19:35:33.859 BST [7859] STATEMENT:  CREATE TABLE topics (
+	  id SERIAL PRIMARY KEY,
+	  name VARCHAR(255) NOT NULL
+	);
+2023-06-24 19:37:05.044 BST [7859] ERROR:  relation "availabbility" does not exist at character 15
+2023-06-24 19:37:05.044 BST [7859] STATEMENT:  select * from availabbility;
+2023-06-24 19:37:47.821 BST [7833] LOG:  checkpoint starting: time
+2023-06-24 19:37:55.029 BST [7833] LOG:  checkpoint complete: wrote 72 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.185 s, sync=0.013 s, total=7.209 s; sync files=49, longest=0.006 s, average=0.001 s; distance=296 kB, estimate=8033 kB
+2023-06-24 19:47:47.029 BST [7833] LOG:  checkpoint starting: time
+2023-06-24 19:47:47.144 BST [7833] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.003 s, total=0.115 s; sync files=1, longest=0.003 s, average=0.003 s; distance=1 kB, estimate=7230 kB
