@@ -26,3 +26,252 @@
 2023-06-24 19:37:55.029 BST [7833] LOG:  checkpoint complete: wrote 72 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.185 s, sync=0.013 s, total=7.209 s; sync files=49, longest=0.006 s, average=0.001 s; distance=296 kB, estimate=8033 kB
 2023-06-24 19:47:47.029 BST [7833] LOG:  checkpoint starting: time
 2023-06-24 19:47:47.144 BST [7833] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.003 s, total=0.115 s; sync files=1, longest=0.003 s, average=0.003 s; distance=1 kB, estimate=7230 kB
+2023-06-25 00:32:30.696 BST [7832] LOG:  received smart shutdown request
+2023-06-25 00:32:30.699 BST [7832] LOG:  background worker "logical replication launcher" (PID 7838) exited with exit code 1
+2023-06-25 00:32:30.699 BST [7833] LOG:  shutting down
+2023-06-25 00:32:30.700 BST [7833] LOG:  checkpoint starting: shutdown immediate
+2023-06-25 00:32:30.704 BST [7833] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=6507 kB
+2023-06-25 00:32:30.711 BST [7832] LOG:  database system is shut down
+2023-06-25 19:07:11.128 BST [3390] LOG:  starting PostgreSQL 15.3 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-06-25 19:07:11.134 BST [3390] LOG:  listening on IPv4 address "127.0.0.1", port 5100
+2023-06-25 19:07:11.134 BST [3390] LOG:  listening on IPv6 address "::1", port 5100
+2023-06-25 19:07:11.135 BST [3390] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5100"
+2023-06-25 19:07:11.147 BST [3393] LOG:  database system was shut down at 2023-06-25 00:32:30 BST
+2023-06-25 19:07:11.157 BST [3390] LOG:  database system is ready to accept connections
+2023-06-25 19:12:11.149 BST [3391] LOG:  checkpoint starting: time
+2023-06-25 19:12:11.562 BST [3391] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.406 s, sync=0.001 s, total=0.414 s; sync files=3, longest=0.001 s, average=0.001 s; distance=30 kB, estimate=30 kB
+2023-06-28 17:12:27.459 BST [34426] ERROR:  syntax error at or near "dt" at character 1
+2023-06-28 17:12:27.459 BST [34426] STATEMENT:  dt
+	select * from availability;
+2023-06-28 19:47:42.645 BST [3391] LOG:  checkpoint starting: time
+2023-06-28 19:47:42.973 BST [3391] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.313 s, sync=0.007 s, total=0.331 s; sync files=3, longest=0.004 s, average=0.003 s; distance=9 kB, estimate=28 kB
+2023-06-28 23:26:05.925 BST [3390] LOG:  received smart shutdown request
+2023-06-28 23:26:05.933 BST [3390] LOG:  background worker "logical replication launcher" (PID 3396) exited with exit code 1
+2023-06-28 23:26:05.934 BST [3391] LOG:  shutting down
+2023-06-28 23:26:05.935 BST [3391] LOG:  checkpoint starting: shutdown immediate
+2023-06-28 23:26:05.941 BST [3391] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.008 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=25 kB
+2023-06-28 23:26:05.947 BST [3390] LOG:  database system is shut down
+2023-06-29 11:46:36.695 BST [3077] LOG:  starting PostgreSQL 15.3 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-06-29 11:46:36.698 BST [3077] LOG:  listening on IPv6 address "::1", port 5100
+2023-06-29 11:46:36.698 BST [3077] LOG:  listening on IPv4 address "127.0.0.1", port 5100
+2023-06-29 11:46:36.699 BST [3077] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5100"
+2023-06-29 11:46:36.711 BST [3080] LOG:  database system was shut down at 2023-06-28 23:26:05 BST
+2023-06-29 11:46:36.723 BST [3077] LOG:  database system is ready to accept connections
+2023-06-29 11:51:36.722 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 11:51:36.729 BST [3078] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.016 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2023-06-29 11:56:36.732 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 11:56:36.851 BST [3078] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.007 s, total=0.120 s; sync files=1, longest=0.007 s, average=0.007 s; distance=2 kB, estimate=2 kB
+2023-06-29 11:56:45.781 BST [4113] ERROR:  syntax error at or near "SQL" at character 8
+2023-06-29 11:56:45.781 BST [4113] STATEMENT:  INSERT SQL TO topics;
+2023-06-29 11:57:17.276 BST [4113] ERROR:  syntax error at or near "Sql" at character 8
+2023-06-29 11:57:17.276 BST [4113] STATEMENT:  INSERT Sql TO topics;
+2023-06-29 11:59:16.481 BST [4113] ERROR:  syntax error at or near "INSERT" at character 24
+2023-06-29 11:59:16.481 BST [4113] STATEMENT:  INSERT INTO table_name
+	INSERT INTO topics VALUES(Sql);
+2023-06-29 11:59:59.664 BST [4113] ERROR:  column "sql" does not exist at character 27
+2023-06-29 11:59:59.664 BST [4113] STATEMENT:  INSERT INTO topics VALUES(Sql);
+2023-06-29 12:00:52.946 BST [4113] ERROR:  syntax error at or near "name" at character 20
+2023-06-29 12:00:52.946 BST [4113] STATEMENT:  INSERT INTO topics name(Sql);
+2023-06-29 12:01:31.339 BST [4113] ERROR:  syntax error at or near "name" at character 20
+2023-06-29 12:01:31.339 BST [4113] STATEMENT:  INSERT INTO topics name:(Sql);
+2023-06-29 12:01:49.524 BST [4113] ERROR:  syntax error at or near "name" at character 27
+2023-06-29 12:01:49.524 BST [4113] STATEMENT:  INSERT INTO topics VALUES name:(Sql);
+2023-06-29 12:01:56.919 BST [4113] ERROR:  column "sql" does not exist at character 28
+2023-06-29 12:01:56.919 BST [4113] STATEMENT:  INSERT INTO topics VALUES (Sql);
+2023-06-29 12:02:13.354 BST [4113] ERROR:  syntax error at or near "name" at character 27
+2023-06-29 12:02:13.354 BST [4113] STATEMENT:  INSERT INTO topics VALUES name;
+2023-06-29 12:02:28.586 BST [4113] ERROR:  syntax error at or near "name" at character 27
+2023-06-29 12:02:28.586 BST [4113] STATEMENT:  INSERT INTO topics VALUES name(Sql);
+2023-06-29 12:02:35.693 BST [4113] ERROR:  syntax error at or near "name" at character 27
+2023-06-29 12:02:35.693 BST [4113] STATEMENT:  INSERT INTO topics VALUES name=(Sql);
+2023-06-29 12:18:37.852 BST [4113] ERROR:  column "sql" does not exist at character 35
+2023-06-29 12:18:37.852 BST [4113] STATEMENT:  INSERT INTO topics (name) VALUES (sql);
+2023-06-29 12:21:13.298 BST [4113] ERROR:  column "sql" does not exist at character 38
+2023-06-29 12:21:13.298 BST [4113] STATEMENT:  INSERT INTO topics (id,name) VALUES (sql);
+2023-06-29 12:22:48.159 BST [4113] ERROR:  relation "topiccs" does not exist at character 15
+2023-06-29 12:22:48.159 BST [4113] STATEMENT:  select * from topiccs;
+2023-06-29 12:26:36.834 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 12:26:37.359 BST [3078] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.510 s, sync=0.008 s, total=0.525 s; sync files=5, longest=0.006 s, average=0.002 s; distance=1 kB, estimate=2 kB
+2023-06-29 12:35:02.030 BST [4113] ERROR:  column "avilability" of relation "matching_trainees" does not exist at character 38
+2023-06-29 12:35:02.030 BST [4113] STATEMENT:  insert into matching_trainees (name, avilability,topics_of_interest) values('Ebrahim','29.02.2023','python');
+2023-06-29 12:35:34.325 BST [4113] ERROR:  null value in column "trainee_id" of relation "matching_trainees" violates not-null constraint
+2023-06-29 12:35:34.325 BST [4113] DETAIL:  Failing row contains (1, null, Ebrahim, 29.02.2023, python).
+2023-06-29 12:35:34.325 BST [4113] STATEMENT:  insert into matching_trainees (name, availability,topics_of_interest) values('Ebrahim','29.02.2023','python');
+2023-06-29 12:36:03.032 BST [4113] ERROR:  INSERT has more expressions than target columns at character 105
+2023-06-29 12:36:03.032 BST [4113] STATEMENT:  insert into matching_trainees (name, availability,topics_of_interest) values('1','Ebrahim','29.02.2023','python');
+2023-06-29 12:36:36.360 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 12:36:36.684 BST [3078] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.309 s, sync=0.007 s, total=0.325 s; sync files=4, longest=0.006 s, average=0.002 s; distance=6 kB, estimate=6 kB
+2023-06-29 12:41:56.858 BST [4113] ERROR:  null value in column "trainee_id" of relation "matching_trainees" violates not-null constraint
+2023-06-29 12:41:56.858 BST [4113] DETAIL:  Failing row contains (2, null, Ebrahim, 29.02.2023, python).
+2023-06-29 12:41:56.858 BST [4113] STATEMENT:  insert into matching_trainees (name, availability,topics_of_interest) values('Ebrahim','29.02.2023','python');
+2023-06-29 12:42:49.268 BST [4113] ERROR:  INSERT has more target columns than expressions at character 62
+2023-06-29 12:42:49.268 BST [4113] STATEMENT:  insert into matching_trainees (trainee_id,name, availability,topics_of_interest) values('Ebrahim','29.02.2023','python');
+2023-06-29 12:43:06.870 BST [4113] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 12:43:06.870 BST [4113] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 12:43:06.870 BST [4113] STATEMENT:  insert into matching_trainees (trainee_id,name, availability,topics_of_interest) values('1','Ebrahim','29.02.2023','python');
+2023-06-29 12:43:37.179 BST [4113] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 12:43:37.179 BST [4113] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 12:43:37.179 BST [4113] STATEMENT:  insert into matching_trainees (trainee_id,name, availability,topics_of_interest) values(1,'Ebrahim','29.02.2023','python');
+2023-06-29 12:44:08.653 BST [4113] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 12:44:08.653 BST [4113] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 12:44:08.653 BST [4113] STATEMENT:  insert into matching_trainees (trainee_id,name, availability,topics_of_interest) values(1,'Ebrahim','29.02.2023','python');
+2023-06-29 12:44:17.903 BST [4113] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 12:44:17.903 BST [4113] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 12:44:17.903 BST [4113] STATEMENT:  insert into matching_trainees (trainee_id,name, availability,topics_of_interest) values('1','Ebrahim','29.02.2023','python');
+2023-06-29 12:46:36.667 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 12:46:37.192 BST [3078] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.512 s, sync=0.002 s, total=0.526 s; sync files=5, longest=0.001 s, average=0.001 s; distance=6 kB, estimate=6 kB
+2023-06-29 13:07:13.886 BST [4113] ERROR:  null value in column "trainee_id" of relation "matching_trainees" violates not-null constraint
+2023-06-29 13:07:13.886 BST [4113] DETAIL:  Failing row contains (7, null, Ebrahim, 29.02.2023, python).
+2023-06-29 13:07:13.886 BST [4113] STATEMENT:  insert into matching_trainees (name,availability,topics_of_interest) values('Ebrahim','29.02.2023','python');
+2023-06-29 13:11:15.874 BST [5201] ERROR:  null value in column "phone" of relation "users" violates not-null constraint
+2023-06-29 13:11:15.874 BST [5201] DETAIL:  Failing row contains (1, ebrahim, 1234, e@gmail.com, null).
+2023-06-29 13:11:15.874 BST [5201] STATEMENT:  insert into users (username,password,email) values ('ebrahim','1234','e@gmail.com');
+2023-06-29 13:11:36.183 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 13:11:36.494 BST [3078] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.003 s, total=0.312 s; sync files=4, longest=0.002 s, average=0.001 s; distance=1 kB, estimate=6 kB
+2023-06-29 13:12:02.327 BST [5201] ERROR:  syntax error at or near "eselect" at character 1
+2023-06-29 13:12:02.327 BST [5201] STATEMENT:  eselect * from users;
+2023-06-29 13:16:36.493 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 13:16:37.007 BST [3078] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.506 s, sync=0.001 s, total=0.515 s; sync files=5, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=5 kB
+2023-06-29 13:36:11.994 BST [5201] ERROR:  relation "matching_trainees" already exists
+2023-06-29 13:36:11.994 BST [5201] STATEMENT:  CREATE TABLE matching_trainees (
+	  id SERIAL PRIMARY KEY,
+	  trainee_id INT,
+	  name VARCHAR(255),
+	  availability DATE,
+	  topics_of_interest VARCHAR(255)
+	);
+2023-06-29 13:36:22.949 BST [5201] ERROR:  relation "matching_trainees" already exists
+2023-06-29 13:36:22.949 BST [5201] STATEMENT:  CREATE TABLE matching_trainees (
+	  id SERIAL PRIMARY KEY,
+	  trainee_id INT,
+	  name VARCHAR(255),
+	  availability DATE,
+	  topics_of_interest VARCHAR(255)
+	);
+2023-06-29 13:36:36.028 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 13:36:37.556 BST [3078] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.513 s, sync=0.005 s, total=1.528 s; sync files=18, longest=0.002 s, average=0.001 s; distance=62 kB, estimate=62 kB
+2023-06-29 14:51:28.926 BST [5201] ERROR:  insert or update on table "availability" violates foreign key constraint "availability_user_id_fkey"
+2023-06-29 14:51:28.926 BST [5201] DETAIL:  Key (user_id)=(1) is not present in table "users".
+2023-06-29 14:51:28.926 BST [5201] STATEMENT:  INSERT INTO availability (user_id, selected_date, selected_time)
+	VALUES (1, '2023-06-21', '10:00'),
+	       (2, '2023-06-22', '14:00'),
+	       (3, '2023-06-23', '16:00');
+2023-06-29 14:51:36.572 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 14:51:37.301 BST [3078] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.714 s, sync=0.009 s, total=0.730 s; sync files=7, longest=0.006 s, average=0.002 s; distance=13 kB, estimate=57 kB
+2023-06-29 14:51:56.592 BST [5201] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 14:51:56.592 BST [5201] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 14:51:56.592 BST [5201] STATEMENT:  INSERT INTO matching_trainees (trainee_id, name, availability, topics_of_interest)
+	VALUES (1, 'John Doe', ARRAY[1, 2], ARRAY['JavaScript', 'Python']),
+	       (2, 'Jane Smith', ARRAY[2, 3], ARRAY['Python', 'Java']),
+	       (3, 'Robert Johnson', ARRAY[1, 3], ARRAY['JavaScript', 'Java']);
+2023-06-29 14:52:10.704 BST [5201] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 14:52:10.704 BST [5201] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 14:52:10.704 BST [5201] STATEMENT:  INSERT INTO matching_trainees (trainee_id, name, availability, topics_of_interest)
+	VALUES (1, 'John Doe', ARRAY[1, 2], ARRAY['JavaScript', 'Python']),
+	       (2, 'Jane Smith', ARRAY[2, 3], ARRAY['Python', 'Java']),
+	       (3, 'Robert Johnson', ARRAY[1, 3], ARRAY['JavaScript', 'Java']);
+2023-06-29 14:52:13.037 BST [5201] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 14:52:13.037 BST [5201] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 14:52:13.037 BST [5201] STATEMENT:  INSERT INTO matching_trainees (trainee_id, name, availability, topics_of_interest)
+	VALUES (1, 'John Doe', ARRAY[1, 2], ARRAY['JavaScript', 'Python']),
+	       (2, 'Jane Smith', ARRAY[2, 3], ARRAY['Python', 'Java']),
+	       (3, 'Robert Johnson', ARRAY[1, 3], ARRAY['JavaScript', 'Java']);
+2023-06-29 14:52:35.498 BST [5201] ERROR:  insert or update on table "availability" violates foreign key constraint "availability_user_id_fkey"
+2023-06-29 14:52:35.498 BST [5201] DETAIL:  Key (user_id)=(1) is not present in table "users".
+2023-06-29 14:52:35.498 BST [5201] STATEMENT:  INSERT INTO availability (user_id, selected_date, selected_time)
+	VALUES (1, '2023-06-21', '10:00'),
+	       (2, '2023-06-22', '14:00'),
+	       (3, '2023-06-23', '16:00');
+2023-06-29 14:53:15.629 BST [5201] ERROR:  column "name" of relation "users" does not exist at character 24
+2023-06-29 14:53:15.629 BST [5201] STATEMENT:  INSERT INTO users (id, name)
+	VALUES (1, 'John Doe'),
+	       (2, 'Jane Smith'),
+	       (3, 'Robert Johnson');
+2023-06-29 14:53:52.871 BST [5201] ERROR:  null value in column "password" of relation "users" violates not-null constraint
+2023-06-29 14:53:52.871 BST [5201] DETAIL:  Failing row contains (1, John Doe, null, null, null).
+2023-06-29 14:53:52.871 BST [5201] STATEMENT:  INSERT INTO users (id, username)
+	VALUES (1, 'John Doe'),
+	       (2, 'Jane Smith'),
+	       (3, 'Robert Johnson');
+2023-06-29 14:54:17.860 BST [5201] ERROR:  INSERT has more target columns than expressions at character 24
+2023-06-29 14:54:17.860 BST [5201] STATEMENT:  INSERT INTO users (id, username)
+	VALUES ('John Doe'),
+	       ('Jane Smith'),
+	       ('Robert Johnson');
+2023-06-29 14:54:36.322 BST [5201] ERROR:  null value in column "password" of relation "users" violates not-null constraint
+2023-06-29 14:54:36.322 BST [5201] DETAIL:  Failing row contains (3, John Doe, null, null, null).
+2023-06-29 14:54:36.322 BST [5201] STATEMENT:  INSERT INTO users (username)
+	VALUES ('John Doe'),
+	       ('Jane Smith'),
+	       ('Robert Johnson');
+2023-06-29 14:55:16.248 BST [5201] ERROR:  null value in column "email" of relation "users" violates not-null constraint
+2023-06-29 14:55:16.248 BST [5201] DETAIL:  Failing row contains (4, John Doe, password1, null, null).
+2023-06-29 14:55:16.248 BST [5201] STATEMENT:  INSERT INTO users (username, password)
+	VALUES ('John Doe', 'password1'),
+	       ('Jane Smith', 'password2'),
+	       ('Robert Johnson', 'password3');
+2023-06-29 14:56:36.307 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 14:56:37.027 BST [3078] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.708 s, sync=0.009 s, total=0.721 s; sync files=8, longest=0.006 s, average=0.002 s; distance=3 kB, estimate=52 kB
+2023-06-29 14:57:48.931 BST [5201] ERROR:  insert or update on table "availability" violates foreign key constraint "availability_user_id_fkey"
+2023-06-29 14:57:48.931 BST [5201] DETAIL:  Key (user_id)=(1) is not present in table "users".
+2023-06-29 14:57:48.931 BST [5201] STATEMENT:  INSERT INTO availability (user_id, selected_date, selected_time)
+	VALUES (1, '2023-06-21', '10:00'),
+	       (2, '2023-06-22', '14:00'),
+	       (3, '2023-06-23', '16:00');
+2023-06-29 14:58:34.119 BST [5201] ERROR:  null value in column "user_id" of relation "availability" violates not-null constraint
+2023-06-29 14:58:34.119 BST [5201] DETAIL:  Failing row contains (10, null, 2023-06-21, 10:00:00).
+2023-06-29 14:58:34.119 BST [5201] STATEMENT:  INSERT INTO availability (selected_date, selected_time)
+	VALUES ('2023-06-21', '10:00'),
+	       ('2023-06-22', '14:00'),
+	       ('2023-06-23', '16:00');
+2023-06-29 14:58:47.231 BST [5201] ERROR:  insert or update on table "availability" violates foreign key constraint "availability_user_id_fkey"
+2023-06-29 14:58:47.231 BST [5201] DETAIL:  Key (user_id)=(1) is not present in table "users".
+2023-06-29 14:58:47.231 BST [5201] STATEMENT:  INSERT INTO availability (user_id, selected_date, selected_time)
+	VALUES (1, '2023-06-21', '10:00'),
+	       (2, '2023-06-22', '14:00'),
+	       (3, '2023-06-23', '16:00');
+2023-06-29 15:01:36.032 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 15:01:36.658 BST [3078] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.608 s, sync=0.008 s, total=0.627 s; sync files=7, longest=0.006 s, average=0.002 s; distance=2 kB, estimate=47 kB
+2023-06-29 15:01:39.431 BST [5201] ERROR:  null value in column "user_id" of relation "availability" violates not-null constraint
+2023-06-29 15:01:39.431 BST [5201] DETAIL:  Failing row contains (1, null, 2023-06-21, 10:00:00).
+2023-06-29 15:01:39.431 BST [5201] STATEMENT:  INSERT INTO availability (id, selected_date, selected_time)
+	VALUES (1, '2023-06-21', '10:00'),
+	       (2, '2023-06-22', '14:00'),
+	       (3, '2023-06-23', '16:00');
+2023-06-29 15:03:50.258 BST [5201] ERROR:  insert or update on table "availability" violates foreign key constraint "availability_user_id_fkey"
+2023-06-29 15:03:50.258 BST [5201] DETAIL:  Key (user_id)=(1) is not present in table "users".
+2023-06-29 15:03:50.258 BST [5201] STATEMENT:  INSERT INTO availability (user_id, selected_date, selected_time)
+	VALUES
+	  (1, '2023-06-21', '10:00'),
+	  (2, '2023-06-22', '14:00'),
+	  (3, '2023-06-23', '16:00');
+2023-06-29 15:04:38.587 BST [5201] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 15:04:38.587 BST [5201] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 15:04:38.587 BST [5201] STATEMENT:  INSERT INTO matching_trainees (trainee_id, name, availability, topics_of_interest)
+	VALUES (1, 'John Doe', ARRAY[1, 2], ARRAY['JavaScript', 'Python']),
+	       (2, 'Jane Smith', ARRAY[2, 3], ARRAY['Python', 'Java']),
+	       (3, 'Robert Johnson', ARRAY[1, 3], ARRAY['JavaScript', 'Java']);
+2023-06-29 15:04:50.146 BST [5201] ERROR:  insert or update on table "matching_trainees" violates foreign key constraint "matching_trainees_trainee_id_fkey"
+2023-06-29 15:04:50.146 BST [5201] DETAIL:  Key (trainee_id)=(1) is not present in table "users".
+2023-06-29 15:04:50.146 BST [5201] STATEMENT:  INSERT INTO matching_trainees (trainee_id, name, availability, topics_of_interest)
+	VALUES (1, 'John Doe', ARRAY[1, 2], ARRAY['JavaScript', 'Python']),
+	       (2, 'Jane Smith', ARRAY[2, 3], ARRAY['Python', 'Java']),
+	       (3, 'Robert Johnson', ARRAY[1, 3], ARRAY['JavaScript', 'Java']);
+2023-06-29 15:06:36.663 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 15:06:37.385 BST [3078] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.707 s, sync=0.008 s, total=0.722 s; sync files=8, longest=0.006 s, average=0.001 s; distance=5 kB, estimate=43 kB
+2023-06-29 15:11:36.389 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 15:11:36.919 BST [3078] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.518 s, sync=0.003 s, total=0.530 s; sync files=6, longest=0.002 s, average=0.001 s; distance=4 kB, estimate=39 kB
+2023-06-29 16:31:22.095 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 16:31:22.210 BST [3078] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.002 s, total=0.115 s; sync files=1, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=35 kB
+2023-06-29 16:34:32.265 BST [5201] ERROR:  relation "matching_trainees" does not exist
+2023-06-29 16:34:32.265 BST [5201] STATEMENT:  ALTER TABLE matching_trainees RENAME TO trainees;
+2023-06-29 16:36:22.208 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 16:36:23.134 BST [3078] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.916 s, sync=0.007 s, total=0.926 s; sync files=8, longest=0.006 s, average=0.001 s; distance=47 kB, estimate=47 kB
+2023-06-29 16:41:22.133 BST [3078] LOG:  checkpoint starting: time
+2023-06-29 16:41:22.254 BST [3078] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.007 s, total=0.122 s; sync files=1, longest=0.007 s, average=0.007 s; distance=3 kB, estimate=43 kB
+2023-07-04 23:22:16.934 BST [3077] LOG:  received smart shutdown request
+2023-07-04 23:22:16.939 BST [3077] LOG:  background worker "logical replication launcher" (PID 3083) exited with exit code 1
+2023-07-04 23:22:16.940 BST [3078] LOG:  shutting down
+2023-07-04 23:22:16.941 BST [3078] LOG:  checkpoint starting: shutdown immediate
+2023-07-04 23:22:16.955 BST [3078] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.001 s, total=0.015 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=38 kB
+2023-07-04 23:22:16.961 BST [3077] LOG:  database system is shut down
